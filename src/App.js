@@ -40,7 +40,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <Container>
         <Home/> 
-        <ToggleButton onClick={toggleTheme}>Toggle Theme</ToggleButton>
+        <ToggleButton onClick={toggleTheme}>Change Theme</ToggleButton>
       </Container>
     </ThemeProvider>
   );
